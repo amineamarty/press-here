@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>press here</title>
+    <style>
+        body{
+            display: grid;
+            place-items: center;
+        }
+        button{
+            background-color: green;
+            outline: none;
+            border: none;
+            padding: 20px;
+            color: white;
+            font-weight: 700;
+            border-radius: 10px;
+            margin: 40px 0;
+            font-size: 30px;
+            cursor: pointer;
+            transition: 0.6s ease;
+        }
+        button:hover{
+            background-color: red;
+        }
+        img{
+            border-radius: 30px;
+        }
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .btn{
+            display: none;         
+            background-color:red;
+            outline: none;
+            border: none;
+            padding: 20px;
+            color: white;
+            font-weight: 700;
+            border-radius: 10px;
+            font-size: 30px;
+            cursor: pointer;
+            transition: 0.6s ease;
+            margin-left: 30px;
+
+        }
+        .btn:hover{
+            background-color: green;
+        }
+        img[alt="image"]{
+            display: none;
+            width: 700px;
+            height: 500px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+         <button>اضغط هنا يختفي الاستاذ</button></li>
+        <button class="btn">اضغط هنا لكي يعود الاستاذ</button></li>
+    </div>
+    
+    <img src="tec.jpg" alt="teacher">
+    <img src="hh.jpg" alt="image">
+    <script src="index.js"></script>
+</body>
+</html>
